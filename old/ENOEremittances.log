@@ -1,0 +1,47 @@
+--------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\Claire\Dropbox\MigrationShocks\git_migshks_code\ENOEremitt
+> ances.log
+  log type:  text
+ opened on:  13 Jul 2021, 17:16:15
+
+. 
+. use Data_built\ENOE\ENOE_remit_shock_windows, clear
+file Data_built\ENOE\ENOE_remit_shock_windows.dta not found
+r(601);
+
+end of do-file
+
+r(601);
+
+. do "C:\Users\Claire\AppData\Local\Temp\STD02000000.tmp"
+
+. cd "C:\Users\Claire\Dropbox\MigrationShocks\"
+C:\Users\Claire\Dropbox\MigrationShocks
+
+. 
+end of do-file
+
+. do "C:\Users\Claire\AppData\Local\Temp\STD02000000.tmp"
+
+. 
+. *********************************
+. *REMINTANCES
+. log using ENOEremittances, text replace
+log file already open
+r(604);
+
+end of do-file
+
+r(604);
+
+. do "C:\Users\Claire\AppData\Local\Temp\STD02000000.tmp"
+
+. 
+. log close
+      name:  <unnamed>
+       log:  C:\Users\Claire\Dropbox\MigrationShocks\git_migshks_code\ENOEremitt
+> ances.log
+  log type:  text
+ closed on:  13 Jul 2021, 17:16:39
+--------------------------------------------------------------------------------

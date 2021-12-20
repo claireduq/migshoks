@@ -1,0 +1,30 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\gehrk001\Dropbox\MigrationShocks\git_migshks_code\ENOEenroll_windows.log
+  log type:  text
+ opened on:  15 Jul 2021, 12:28:49
+
+. 
+. use Data_built\ENOE\ENOE_eduall_windows.dta, clear
+file Data_built\ENOE\ENOE_eduall_windows.dta not found
+r(601);
+
+end of do-file
+
+r(601);
+
+. do "C:\Users\gehrk001\AppData\Local\Temp\STD00000000.tmp"
+
+. 
+. if "`c(username)'"=="gehrk001" {
+.         cap cd "C:\Users\gehrk001\Dropbox\MigrationShocks\"
+. }
+
+. 
+. if "`c(username)'"=="Claire" {
+.         cap cd "C:\Users\Claire\Dropbox\MigrationShocks\"
+. }
+
+. *************************************************************************************
+. 
+. cap log close
